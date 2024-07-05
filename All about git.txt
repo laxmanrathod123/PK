@@ -1,0 +1,18 @@
+Git Download : link- https://git-scm.com/download/win
+
+To check if the git is install or not your system
+  use the below command to check that : 
+->  git --version
+
+How to start with git : 
+1. We need to create a bit bucket account
+2. After creating a bitbucket account we need to create a workspace
+3. After that we need to create a repository which may be private or Public
+
+Remote Repository : 
+It the repository from where we have clone our code
+
+Working Repository: 
+Once you clone the repository and if you touches that folder mean if you done any changes there by adding 
+some file then that repository become Working Repository
+git 
