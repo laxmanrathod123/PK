@@ -16,3 +16,25 @@ Working Repository:
 Once you clone the repository and if you touches that folder mean if you done any changes there by adding 
 some file then that repository become Working Repository
 git is not working 
+
+
+If we faced this recent below error : 
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Then use this below command to resolve this error 
+
+git@upstream-error  /c/branch/push (new-branch)
+git push --set-upstream origin new-branch
+cd git*
+git switch -c new-branch
+git branch -a
+touch devo.html
+git add .
+git commit -m "Are we not men?"
+git push --set-upstream origin new-branch
+touch echo.html
+git add .
+git commit -m "Echo done"
+git push origin
