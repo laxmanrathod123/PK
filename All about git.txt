@@ -69,5 +69,34 @@ git add ->                git commit  ->                  git push ->
  gt<<- git clone
                                                       <<- git pull
 
+Difference between the git clone and git pull:
+
+At the beginning when you don't have any local repository then we need to clone first time to set our local repo
+
+afterward we need to take only latest pull which means if any changes happened to that repo will be pull out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
               
