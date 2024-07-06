@@ -1,5 +1,15 @@
 Git Download : link- https://git-scm.com/download/win -> Use this link to download the git for window machine
 
+To install git in your mac system
+just go to download and look for mac
+The page will ask you to download the homebrew and the from terminal you can download the git into your mac system
+Use below command
+ brew install git
+
+New bitbucket account with mail id:
+laxmanrathod1695@gmail.com
+Kittu@123
+new Pass: Myprinces@Kittu
 To check if the git is install or not your system
   use the below command to check that : 
 ->  git --version
@@ -76,6 +86,30 @@ At the beginning when you don't have any local repository then we need to clone 
 afterward we need to take only latest pull which means if any changes happened to that repo will be pull out
 
 
+<<<<<<< HEAD
+How to clean the file which are in our working directory and we don't want to commit
+
+git clean -f
+
+
+How to see the commit history : 
+ 
+git log : this command will give you the all commit history 
+
+How to cut the master branch
+Use below command to cut the master branch into feature branch
+
+git branch : it give you in which branch now you are
+git checkout -b feature/profile : this command create the feature branch 
+git status : then you will see the newly created feature branch
+git checkout master : this command will switch from feature branch to master branch
+
+To move all changes from staging to working directory
+
+Use below command to do that
+git reset
+=======
+>>>>>>> db7d600e11cfbd471e387c2bb297ee615677112b
 
 
 
