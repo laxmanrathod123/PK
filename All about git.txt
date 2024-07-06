@@ -86,6 +86,7 @@ At the beginning when you don't have any local repository then we need to clone 
 afterward we need to take only latest pull which means if any changes happened to that repo will be pull out
 
 
+<<<<<<< HEAD
 How to clean the file which are in our working directory and we don't want to commit
 
 git clean -f
@@ -107,6 +108,8 @@ To move all changes from staging to working directory
 
 Use below command to do that
 git reset
+=======
+>>>>>>> db7d600e11cfbd471e387c2bb297ee615677112b
 
 
 
