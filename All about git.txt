@@ -1,9 +1,9 @@
-Git Download : link- https://git-scm.com/download/win
+Git Download : link- https://git-scm.com/download/win -> Use this link to download the git for window machine
 
 To check if the git is install or not your system
   use the below command to check that : 
 ->  git --version
-
+git
 How to start with git : 
 1. We need to create a bit bucket account
 2. After creating a bitbucket account we need to create a workspace
@@ -38,3 +38,36 @@ touch echo.html
 git add .
 git commit -m "Echo done"
 git push origin
+
+
+Flow from cloning the code to pushing our code to remote repository
+steps to be remember:
+1. Need to clone the code from remote repository to local repository
+2. Once you clone and you update that repository to your any file i.e if you add any file to that repo
+   then that repo become local repository
+3. so once you modified that repo by adding any file then this repo become a working directory
+3. Once you run command git add "Your file name " and commit your code with by command git commit -m 
+   "Your commit messages " the we called it as staging directory means our code is now present in staging
+   directory
+4. Only the code which is committed that means only the staging working directory code will be pushed to
+   remote repository
+
+so to summaries this
+
+code -> clone to local repository 
+     -> adding file become that repo to working directory
+     -> committing that file become staging directory.
+     -> Only staging directory code will be push to remote directory
+
+ Local Repository                                                Bit Bucket(centralRepo)
+
+Working directory         Staging Area(index)  Repository(head)    Repository head 
+
+git add ->                git commit  ->                  git push -> 
+
+         <<--- git checkout                           
+ gt<<- git clone
+                                                      <<- git pull
+
+ 
+              
